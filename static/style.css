@@ -1,0 +1,68 @@
+/* Background */
+body {
+    background: linear-gradient(135deg, #4a67ff, #8ef0ff);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Form Card */
+.form-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 950px;
+    margin: auto;
+    box-shadow: 0px 8px 30px rgba(0,0,0,0.15);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Title */
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Inputs */
+select, input {
+    border-radius: 8px !important;
+}
+
+/* Buttons */
+.submit-btn {
+    padding: 12px 40px;
+    background: #0048ff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+    width: 300px;
+}
+
+.submit-btn:hover {
+    background: #002fb3;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Result Box */
+.alert-info {
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Fade animation */
+.fade-in {
+    animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
