@@ -1,8 +1,8 @@
 Flask==3.0.3
 gunicorn==22.0.0
-scikit-learn==1.7.2   # latest stable, supports Python 3.13
-pandas==2.2.3
+
 numpy==2.1.2
+pandas==2.2.3
+scikit-learn==1.7.2
 joblib==1.4.2
-pickle
-imblearn
+imbalanced-learn==0.12.3
